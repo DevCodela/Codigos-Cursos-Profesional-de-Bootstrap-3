@@ -1,0 +1,18 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+	padding-top: 50px;
+}
+.color1{
+	background-color: #ff4444;
+}
+.color2{
+	background-color: #33b5e5;
+}
+.color3{
+	background-color: #8e44ad;
+}
+.color4{
+	background-color: #2ecc71;
+}
