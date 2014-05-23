@@ -1,0 +1,126 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+	padding-top: 50px;
+}
+.centrar{
+	text-align: center;
+}
+.color1{
+	background-color: #ff4444;
+}
+.color2{
+	background-color: #33b5e5;
+}
+.color3{
+	background-color: #8e44ad;
+}
+.color4{
+	background-color: #2ecc71;
+}
+.color5{
+	background-color: #f39c12;
+}
+.{
+
+}
+.ico-color1{
+	color:#33b5e5;
+}
+.ico-color2{
+	color:#ff4444;
+}
+.ico-color3{
+	color:#2ecc71;
+}
+.ico-color4{
+	color:#8e44ad;
+}
+.ico-color5{
+	color: #f39c12;
+}
+.app{
+	font-size: 50px;
+	padding-bottom: 10px;
+}
+.app2{
+	font-size: 20px;
+	text-align: center;
+}
+.app-footer{
+	background-color: #33b5e5;
+	padding-bottom: 23px;
+}
+.derecha{
+	float:right;
+	padding-right: 10px;
+}
+/* ==========================================================================
+   Personalización de Glyphicons
+   ========================================================================== */
+
+.dimension{
+	height: 100px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.d-1{
+	width: 80%;
+	padding-top: 40px;
+	padding-left: 50%;
+	padding-right: 50%;
+}
+
+
+.d-2{
+	width: 80%;
+	padding-top: 15px;
+	padding-left: 45%;
+	padding-right: 45%;
+}
+
+.d-3{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.rd{
+	font-size: 60px;
+}
+
+.fondo{
+	background-color: #ecf0f1;
+}
+
+.c-1{
+	color: #33b5e5;
+}
+.c-2{
+	color: white;
+	background-color: #9933cc;
+}
+.c-3{
+	color: #1abc9c;
+	transform: rotate(50deg);
+	-webkit-transform: rotate(50deg);
+	-ms-transform: rotate(50deg);
+}
+.c-4{
+	color: yellow;
+	text-shadow: 6px 6px 6px #ffbb33;
+}
+
+.centrar1{
+	margin: 0;
+	width: 100%;
+	background-color: #2c3e50;
+}
+.texto{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: white;
+}

@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Cap 5- Grid System</title>
+		<meta name="description" content="">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+	    
+
+	    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	    <link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<h1 style=text-align:center>Cap 5 - Grid System</h1>
+		<!--TIPO DE CONTENEDORES-->
+		<div class="container">
+			<h2>Tipos de contenedores</h2>
+		</div>
+		<div class="container color1">
+			<h4>.container</h4>
+			<p>Contenedor responsivo que contiene padding-right y padding-left con valores de "15px", margin-right y margin-left con valores "auto"; y posee 3 media quiery para hacerlo responsivo.</p>
+			
+		</div>
+		<div class="container-fluid color2">
+			<h4>.container-fluid</h4>
+			<p>Contenedor no responsivo que mantendrá la propiedad "width" en un 100% que nos brinda una estructura flexible y que abarque todo el ancho del navegador.</p>
+		</div>
+
+		<!--..............................................
+			..............................................
+			..............................................-->
+		<div class="container">
+			<h2>Grid System</h2>
+		</div>		
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 col-md-4 col-lg-2 color1">
+					<h1>columna 1</h1>
+					<p>Columna de dimensiones:<br>
+					col-xs-12: 12 grillas para pantallas de celular.<br>
+					col-sm-8: 8 grilas para pantallas de Tablet.<br>
+					col-md-4: 4 grillas para pantallas medianas.<br>
+					col-lg-2: 2 grillas para pantallas grandes.<br></p>
+				</div>
+				<div class="col-xs-12 col-sm-2 col-md-4 col-lg-2 color2">
+					<h1>columna 2</h1>
+					<p>Columna de dimensiones:<br>
+					col-xs-12: 12 grillas para pantallas de celular.<br>
+					col-sm-2: 2 grilas para pantallas de Tablet.<br>
+					col-md-4: 4 grillas para pantallas medianas.<br>
+					col-lg-2: 2 grillas para pantallas grandes.<br></p>
+				</div>
+				<div class="col-xs-12 col-sm-2 col-md-4 col-lg-8 color1">
+					<h1>columna 3</h1>
+					<p>Columna de dimensiones:<br>
+					col-xs-12: 12 grillas para pantallas de celular.<br>
+					col-sm-2: 2 grilas para pantallas de Tablet.<br>
+					col-md-4: 4 grillas para pantallas medianas.<br>
+					col-lg-8: 8 grillas para pantallas grandes.<br></p>
+				</div>
+			</div>
+		</div>
+
+		<!--..............................................
+				..............................................
+				..............................................-->
+		<div class="container">
+			<h2>Resetear columnas</h2>
+			<h4>Columna sin resetear</h4>
+			<p>Nos damos cuenta que al reducir el tamaño de pantalla hasta hacerla del tamaño de un celular, las dos últimas columnas se desplazan hacia a bajo con una mala distrubución.</p>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-sm-3 color1">
+					<h1>columna 1</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, a, expedita distinctio molestias cupiditate hic provident porro. Amet, temporibus, minima, animi, nisi alias ex eum voluptatem aut ad reiciendis vitae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, atque ea temporibus debitis consectetur possimus dolorum ipsum illum quod rem nobis velit quae voluptatum perferendis voluptas quam voluptatibus dolore ex.</p>
+				</div>
+				<div class="col-xs-6 col-sm-3 color2">
+					<h1>columna 2</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, earum, quasi, magni aspernatur odio error facere illo soluta quibusdam ipsa neque cupiditate cumque laudantium optio itaque sed amet aperiam voluptas.</p>
+				</div>
+				<div class="col-xs-6 col-sm-3 color3">
+					<h1>columna 3</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, minima, maxime tempora ratione ducimus cupiditate. Atque, tempora, fuga, quos, labore obcaecati laborum laboriosam odio debitis consequuntur ipsam voluptatum impedit ipsa.</p>
+				</div>
+				<div class="col-xs-6 col-sm-3 color4">
+					<h1>columna 4</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, temporibus, provident, consequatur non error at excepturi debitis numquam magni aspernatur aliquam quod totam veniam? Quaerat eos nam voluptatem facere in.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<h4>Columna reseteada</h4>
+			<p>Al colocar un "div" con las clases "clearfix visible-xs" luego de la segunda columna observamos que cuando la pantalla es del tamaño de un celular se desplaza con una buena distribución.</p>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-sm-3 color1">
+					<h1>columna 1</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, a, expedita distinctio molestias cupiditate hic provident porro. Amet, temporibus, minima, animi, nisi alias ex eum voluptatem aut ad reiciendis vitae.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, atque ea temporibus debitis consectetur possimus dolorum ipsum illum quod rem nobis velit quae voluptatum perferendis voluptas quam voluptatibus dolore ex.</p>
+				</div>
+				<div class="col-xs-6 col-sm-3 color2">
+					<h1>columna 2</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, earum, quasi, magni aspernatur odio error facere illo soluta quibusdam ipsa neque cupiditate cumque laudantium optio itaque sed amet aperiam voluptas.</p>
+				</div>
+				<div class="clearfix visible-xs"></div>
+				<div class="col-xs-6 col-sm-3 color3">
+					<h1>columna 3</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, minima, maxime tempora ratione ducimus cupiditate. Atque, tempora, fuga, quos, labore obcaecati laborum laboriosam odio debitis consequuntur ipsam voluptatum impedit ipsa.</p>					
+				</div>
+				<div class="col-xs-6 col-sm-3 color4">
+					<h1>columna 4</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, temporibus, provident, consequatur non error at excepturi debitis numquam magni aspernatur aliquam quod totam veniam? Quaerat eos nam voluptatem facere in.</p>					
+				</div>
+			</div>
+		</div>
+
+		<!--..............................................
+				..............................................
+				..............................................-->
+		
+		<div class="container">
+			<h2>Desplazar columnas</h2>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 color1">
+					<h1>columna 1</h1>
+					<p>Columna con un tamaño de 4 grillas.....<br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, libero officiis unde debitis voluptas culpa maiores qui consequatur consectetur quod. Mollitia, provident saepe perferendis possimus distinctio pariatur id atque aliquam.</p>
+				</div>
+				<div class="col-md-4 col-md-offset-4 color2">
+					<h1>columna 2</h1>
+					<p>Columna con un tamaño de 4 grillas y desplaza 4 grillas hacia la derecha...<br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, cupiditate, culpa quae laudantium illum ducimus excepturi est accusamus nihil quaerat soluta voluptatem minima reprehenderit voluptatum asperiores tempore similique quis magnam?</p>					
+				</div>
+			</div>
+		</div>
+
+		<!--..............................................
+				..............................................
+				..............................................-->
+		<div class="container">
+			<h2>Reordenar Columnas</h2>
+			<h4>Columnas</h4>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 color1">
+					<h1>Columna1</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, dolorum, non, iure, magnam alias ad animi nam numquam eum omnis voluptates minus vero voluptas rem dolor laudantium architecto obcaecati ipsum.</p>
+				</div>
+				<div class="col-lg-4 color2">
+					<h1>Columna2</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, explicabo, non maxime veritatis deserunt neque provident perspiciatis repellendus eos dolor magni placeat eius vitae iure sunt! Obcaecati, repellat nobis quam!</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<h4>Columnas reordenadas</h4>
+		</div>		
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-push-4 color1">
+					<h1>Columna1</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, dolorum, non, iure, magnam alias ad animi nam numquam eum omnis voluptates minus vero voluptas rem dolor laudantium architecto obcaecati ipsum.</p>
+				</div>
+				<div class="col-lg-4 col-lg-pull-8 color2">
+					<h1>Columna2</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, explicabo, non maxime veritatis deserunt neque provident perspiciatis repellendus eos dolor magni placeat eius vitae iure sunt! Obcaecati, repellat nobis quam!</p>
+				</div>
+			</div>
+		</div>
+
+		<!--..............................................
+				..............................................
+				..............................................-->
+		
+		<div class="container">
+			<h2>Ocultar columnas</h2>
+			<p>Para ocultar columnas por un tema de espacio o por otro motivo, tenemos la clase "hidden-*". Donde " * " representa la clase para cada resolución de pantalla. En este ejemplo ocultaremos la columna 2 cuando estemos en una resolución de celular "xs", y la tercera cuando estemos en una resolución de tablet "md". <br>
+			NOTA: Tener en cuenta que las columnas que no son ocultadas tienen que tener valores que sumen las 12 grillas.</p>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-8 col-sm-4 col-md-4 col-lg-4 color1">
+					<h1>Columna 1</h1>
+					<p>Columna que estará todo el tiempo en el navegador... <br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, explicabo perferendis mollitia doloribus molestias quibusdam et ad harum dolor aspernatur totam temporibus nulla delectus quae deserunt animi repudiandae sed esse?</p>
+				</div>
+				<div class="hidden-xs col-sm-8 col-md-4 col-lg-4 color2">
+					<h1>Columna 2</h1>
+					<p>Se cultará cuando la pantalla tenga una resolución de celular "xs"... <br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, rem, recusandae dolore quis a ipsum molestias temporibus culpa? Aspernatur, eum, sed laboriosam officia eligendi laborum molestiae distinctio velit culpa dolorem.</p>
+				</div>
+				<div class="col-xs-4 hidden-sm col-md-4 col-lg-4 color3">
+					<h1>Columna 3</h1>
+					<p>Se cultará cuando la pantalla tenga una resolución de tablet "md"... <br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, necessitatibus, rerum, molestiae, soluta dolor repellat consequuntur veritatis recusandae distinctio reiciendis quos iure sapiente minus sunt alias eius suscipit voluptatibus earum.</p>
+				</div>
+			</div>
+		</div><br>
+
+
+
+		<footer class="app-footer">
+			<p class="centrar app2" >Curso Profesional de Twitter Bootstrap3</p>
+			<span class="derecha">@2014 Qaysen Sac.</span>		
+		</footer>
+		<script type="text/javascript" src="js/vendor/jquery-1.11.0.min.js"></script>
+	    <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Cap 7 - Iconos Fuentes</title>
+		<meta name="description" content="">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+	    
+		<link rel="stylesheet" href="css/iconbar.css">
+	    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	    <link rel="stylesheet" href="css/main.css">
+
+	</head>
+	<body>
+
+
+
+		<div class="container">
+			<h1 class="centrar">Cap 7 - Iconos fuentes</h1>
+
+			<h2>Glyphicon proporcionados por Bootstrap 3</h2>
+			<p>-Visualizamos los glyphicon  con las clases "glyphicon glyphicon-*" donde " * " es el tipo de glyphicon; nosotros usamos "user", "book", "signal", "hdd" y "fire". Para nuestro ejemplo visualizaremos los glyphicon utilizando la etiqueta "span" y agregando sus respectivas clases.</p>
+			<ul>
+				<li>
+					<span class="glyphicon glyphicon-user"></span> glyphicon-user
+				</li>
+				<li>
+					<span class="glyphicon glyphicon-book"></span> glyphicon-book
+				</li>
+				<li>
+					<span class="glyphicon glyphicon-signal"></span> glyphicon-signal
+				</li>
+				<li>
+					<span class="glyphicon glyphicon-hdd"></span> glyphicon-hdd
+				</li>
+				<li>
+					<span class="glyphicon 	glyphicon-fire"></span> glyphicon-fire
+				</li>
+			</ul>
+
+	<!--..............................................
+				..............................................
+				..............................................-->
+
+			<h2>Tamaño y color a los Glyphicon</h2>
+			<p>-Para cambiar el tamaño y color a los glyphicon es necesario aplicar estilos, para eso vamos a la hoja de estilos main.css y creamos las clases "app", "icon-color1", "icon-color2", "icon-color3", "icon-color4" y "icon-color5". A la clase "app" le agregamos un "font-size:50px" para darle un tamaño de 50 pixeles "padding-bottom: 10px;" para separarlos un poco de los demas elementos; a las demás clases le agregamos "color:#xxxxxx" y le definimos a cada uno un color.</p>
+			<ul>
+				<li>
+					<span class="glyphicon glyphicon-user app ico-color1"></span> glyphicon-user
+				</li>
+				<li>
+					<span class="glyphicon glyphicon-book app ico-color2"></span> glyphicon-book
+				</li>
+				<li>
+					<span class="glyphicon glyphicon-signal app ico-color3"></span> glyphicon-signal
+				</li>
+				<li>
+					<span class="glyphicon glyphicon-hdd app ico-color4"></span> glyphicon-hdd
+				</li>
+				<li>
+					<span class="glyphicon 	glyphicon-fire app ico-color5"></span> glyphicon-fire
+				</li>
+			</ul>
+			
+	<!--..............................................
+				..............................................
+				..............................................-->
+
+			<h2>Personalización de Glyphicon con CSS</h2>
+			<p>Al ser los Glyphicon's considerados texto, podemos realizar cambios en sus estilos como cambiar tamaño, cambiar color, colocarle un color de fondo, rotarlo, colocarle sombras y muchas cosas más en CSS3.</p>
+			
+			<div class="container">
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="dimension fondo">
+                        <div class="d-1">
+                            <span class="glyphicon glyphicon-asterisk"></span>
+                        </div>
+                    </div>
+                    <div class="centrar1">
+                        <div class="texto">
+                            <p>Normal</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4">
+                    <div class="dimension fondo">
+                        <div class="d-2">
+                            <span class="glyphicon glyphicon-flag rd"></span>
+                        </div>
+                    </div>
+                    <div class="centrar1">
+                        <div class="texto">
+                            <p>Cambiar Tamaño</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4">
+                    <div class="dimension fondo">
+                        <div class="d-2">
+                            <span class="glyphicon glyphicon-cloud rd c-1"></span>
+                        </div>
+                    </div>
+                    <div class="centrar1">
+                        <div class="texto">
+                            <p>Cambiar Color</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="dimension fondo">
+                        <div class="d-2">
+                            <span class="glyphicon glyphicon-thumbs-up rd c-2"></span>
+                        </div>
+                    </div>
+                    <div class="centrar1">
+                        <div class="texto">
+                            <p>Color de Fondo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4">
+                    <div class="dimension fondo">
+                        <div class="d-2">
+                            <span class="glyphicon glyphicon-tint rd c-3"></span>
+                        </div>
+                    </div>
+                    <div class="centrar1">
+                        <div class="texto">
+                            <p>Rotación</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4">
+                    <div class="dimension fondo">
+                        <div class="d-2">
+                            <span class="glyphicon glyphicon-star rd c-4"></span>
+                        </div>
+                    </div>
+                    <div class="centrar1">
+                        <div class="texto">
+                            <p>Sombras</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+	<!--..............................................
+				..............................................
+				..............................................-->
+
+			<h2>Descargar e insertar glyphicon externos</h2>
+			<p>Podemos descargar e insertar glyphicon que nosotros obtegamos de deferentes fuentes, Nosotros le proporcionamos un ejemplo y todos los pasos a seguir:</p>
+			<p>
+				<li>Visitar la página <a href="http://icomoon.io/app/#/select" target="_blank">http://icomoon.io/app/#/select.</a></li>
+				<li>Damos clic en el botón "font" y finalmente en el bootón "Dowload".</li>
+				<li>Descomprimimos el archivo.</li>
+				<li>Copiamos los archivos dentro de la carpeta "fond" de nuestros archivos ddescargados y los llevamos a la carpeta "fond" de nuestro proyecto.</li>
+				<li>Copiamos el archivo "style" y lo copiamos dentro de la carpeta "css" de nuestro proyecto y lo cambiamos de nombre por "iconbar".</li>
+				<li>En nuestro sublimetext abrimos el archivo icon bar.</li>
+				<li>Modificaremos la ruta de los Glyphicon en cada URL ateponiendo " ..// "</li>
+				<li>Y para finalizar, en el archivo HTML en lazaremos nuestra hoja de estilo "css/iconbar.css"</li>	
+			</p>
+			<p>Evitar declarar clases con que comiencen con "icon-" en nuestro "main.css" ya que habrá un conflicto con la hoja de estilo "iconbar.css".</p>
+			<ul>
+				<li>
+					<span class="icon-facebook"></span> facebook
+				</li>
+				<li>
+					<span class="icon-google"></span> google
+				</li>
+				<li>
+					<span class="icon-twitter"></span> twitter
+				</li>
+				<li>
+					<span class="icon-youtube"></span> youtube
+				</li>
+			</ul>
+			
+	<!--..............................................
+				..............................................
+				..............................................-->
+
+
+			<h2>Glyphicon en Botones y formularios</h2>
+			<p>También podemos insertar glyphicon dentro de botones y formularios para que el visitante a nuestra página tenga una mejor idea de lo que se puede hacer o cómo puede hacerlo. Colocamos ua etiqueta "span" dentro de botón o input, según sea el caso con el glyphicon que mejor se adapte a nuestra necesidaad. Esto nos permite hacer nuestra página más optimizada a comparación de insertarle imagenes.</p>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6">
+						<h3 class="centrar">Glyphicon en Botones</h3>
+						<label>Botón para Facebook:</label>
+						<div class="centrar">
+							<button class="btn btn-primary">
+								<span class="icon-facebook app2"> facebook</span>
+							</button>
+						</div>
+						
+						<label>Botón para twitter:</label>
+						<div class="centrar">
+							<button class="btn btn-info">
+								<span class="icon-twitter app2"> twitter</span>
+							</button>
+						</div>
+						
+						<label>Botón para Google:</label>
+						<div class="centrar">
+							<button class="btn btn-danger ">
+								<span class="icon-google app2">Google</span>
+							</button>
+						</div>
+						
+						<label>Botón para Suscribirse e canal de Youtube:</label>
+						<div class="centrar">
+							<button class="btn btn-danger">
+								<span class="icon-youtube app2"> Suscribirse</span>
+							</button>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<h3 class="centrar">Glyphicon en Formularios</h3>
+						<div class="form-group has-feedback">
+							<label>OK</label>
+								<input type="text" class="form-control" id="">
+							  	<span class="glyphicon glyphicon-ok form-control-feedback ico-color3"></span>
+						</div>
+						<div class="form-group has-feedback">
+							<label>Peligro</label>
+							<input type="text" class="form-control" id="">
+							<span class="glyphicon glyphicon-warning-sign form-control-feedback ico-color5"></span>
+						</div>
+						<div class="form-group has-feedback">
+							<label>Error</label>
+							<input type="text" class="form-control" id="">
+							<span class="glyphicon glyphicon-remove form-control-feedback ico-color2"></span>
+						</div>
+						<div class="form-group has-feedback">
+							<label>Teléfono</label>
+							<input type="text" class="form-control" id="">
+							<span class="glyphicon glyphicon-phone-alt form-control-feedback ico-color1"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+		</div>
+		<footer class="app-footer">
+			<p class="centrar app2" >Curso Profesional de Twitter Bootstrap3</p>
+			<span class="derecha">@2014 Qaysen Sac.</span>		
+		</footer>
+
+		<script type="text/javascript" src="js/vendor/jquery-1.11.0.min.js"></script>
+	    <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+	</body>
+</html>
