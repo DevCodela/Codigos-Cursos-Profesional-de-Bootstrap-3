@@ -1,0 +1,26 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html, body, .container, .content {
+    height: 100%;
+}
+ 
+.container, .content {
+    position: relative;
+}
+ 
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -50px; 
+    background-color: rgb(228, 236, 248);
+} 
+
+.footer-wrapper {
+    position: relative;
+    height: 50px;
+    background-color: black;
+}
+
