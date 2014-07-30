@@ -1,0 +1,56 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+	font-family: 'Open Sans', 'sans-serif';
+	background: #d1d1d1;
+}
+.navbar-nav>li>.dropdown-menu{
+	margin-top: 20px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.mega-dropdown{
+	position: static !important;
+	width: 100%;
+}
+.mega-dropdown-menu{
+	padding: 20px 20px;
+	width: 100%;
+	box-shadow: none;
+	webkit-box-shadow:none;
+}
+.btn-devcode{
+	background: #33b5e5;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	color: white;
+	border-radius: 0;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.app-justificar{
+	text-align: justify;
+}
+
+.mega-dropdown-menu:before{
+	border-bottom: 15px solid #fff;
+	border-right: 17px solid transparent;
+	border-left: 17px solid transparent;
+	position: absolute;
+	top: -15px;
+	left: 239px;
+	z-index: 10;
+}
+.mega-dropdown-menu:after{
+	border-bottom: 17px solid #fff;
+	border-right: 19px solid transparent;
+	border-left: 19px solid transparent;
+	position: absolute;
+	top: -17px;
+	left: 237px;
+	z-index: 8;
+}
+

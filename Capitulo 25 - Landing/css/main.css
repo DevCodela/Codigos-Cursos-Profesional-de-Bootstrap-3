@@ -1,0 +1,242 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.app-header{
+	background: url("../img/img1.jpg") no-repeat center top fixed;
+	font-family: "Avenir", Futura, Helvetica, sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding-bottom: 80px;
+}
+.app-navbar{
+	background: rgba(0,0,0,0.6);
+	border-radius: 0;
+}
+.app-link{
+	color: white;
+	text-shadow:none;
+}
+.app-link:hover{
+	color: white;
+}
+.app-nav>li>a{
+	color: white;
+	text-shadow:none;
+}
+.app-nav>li>a:hover{
+	color: white;
+	background-color: black;
+}
+.app-icon{
+	background: white;
+}
+
+.app-seccion1{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 170px;
+}
+.app-titulo{
+	text-align: center;
+	color: white;
+	font-size: 2.8em;
+	margin-bottom: 35px;
+}
+.app-resaltar{
+	color: #0080d6;
+}
+.app-descripcion{
+	text-align: center;
+	color: white;
+	font-size: 1em;
+	margin-bottom: 100px;
+}
+.app-formulario1{
+	width: 100%;
+	margin: 0 auto;
+}
+.app-formulario2{
+	padding: 15px 25px 25px 25px;
+	background: rgba(0,0,0,0.6);
+}
+.app-input{
+	height: 50px;
+	margin-top: 10px;
+}
+.app-boton{
+	margin-top: 10px;
+	height: 50px;
+	background: #0080d6;
+	color: white;
+}
+.app-boton:hover{
+	color: white;
+}
+
+.app-seccion2{
+	margin: 80px 0;
+}
+.app-titulo2{
+	margin-top: 0;
+}
+.app-separador{
+	width: 100px;
+	border-bottom: 1px solid #0080d6;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.app-justificar{
+	text-align: justify;
+	color: #727272;
+}
+.app-media{
+	margin-top: 40px;
+}
+.app-glyphicon1{
+	background-color: #0080d6;
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+}
+
+.app-seccion3{
+	background: #f7f8fa;
+	padding: 80px 0;
+}
+
+.app-contenedor{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+.app-separador2{
+	width: 100px;
+	border-bottom: 1px solid #0080d6;
+	margin: 20px auto;
+}
+.glyphicon2{
+	color: #0080d6;
+	font-size: 60px;
+}
+.app-descripcion2{
+	color: #727272;
+}
+.app-lista1{
+	background-color: #323232;
+	color: white;
+	text-align: center;
+}
+.app-lista2{
+	background-color: #0080d6;
+	color: white;
+	text-align: center;
+}
+.app-precio{
+	text-align: center;
+}
+.app-pago{
+	font-weight: bold;
+	margin-right: 30px;
+}
+.app-btn1{
+	background-color: white;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border: 1px solid black;
+}
+.app-btn2{
+	background-color: #0080d6;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.app-video{
+	margin: 0 auto;
+}
+
+.app-footer{
+	text-align: center;
+	background: #f7f8fa;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 100px 0;
+}
+.app-empresa{
+	margin-bottom: 50px;
+}
+.app-icon1{
+	background-color: #919191;
+	color: white;
+	padding: 10px;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+
+
+@media (max-width: 768px){
+	.app-seccion1{
+		width: 90%;
+	}
+	.app-titulo{
+		font-size: 1.8em;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.app-descripcion{
+		font-size: 0.8em;
+		margin-bottom: 50px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
